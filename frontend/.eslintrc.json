@@ -15,8 +15,9 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "import"],
+  "plugins": ["react", "import", "prettier"],
   "rules": {
+    "prettier/prettier": ["error"],
     "no-console": "off",
     "no-restricted-syntax": [
       "error",
